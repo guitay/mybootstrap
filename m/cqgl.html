@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="tiancom erp">
+  <meta name="author" content="tiancom">
+  <link rel="icon" href="../../favicon.ico">
+
+  <title>出勤管理</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="../css/bootstrap.css" rel="stylesheet">
+  <link href="../css/bootstrap-theme.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link rel="stylesheet" href="css/cqgl.css"></head>
+  <link rel="stylesheet" href="css/cqgl-calendar.css"></head>
+
+<body>
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">天维助理</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">天维助理</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="cqgl.html">出勤管理</a>
+          </li>
+          <li>
+            <a href="#">工作量查询</a>
+          </li>
+          <li>
+            <a href="#">工作明细查询</a>
+          </li>
+          <li>
+            <a href="#">帮助</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+
+    <div class="row">
+
+      <div class="col-sm-12 col-md-6 col-md-offset-3 main">
+        <h1 class="page-header">出勤管理</h1>
+        <div id="u119" class="ax_h1">
+          <div id="u120" class="text">
+            <p style="background-image: url(../kqgl/img/transparent.gif);line-height:28px;height:28px;width:640px;margin-left:15px;">
+              <span>&nbsp;温馨提示：</span>
+              <span>为记录您工作的点滴，请您在${kqts}天内填写您的出勤！</span>
+            </p>
+          </div>
+        </div>
+        <table cellpadding="0" cellspacing="0" id="1" border="0">
+          <tr>
+            <td>
+              <div id="cal">
+                <div id="top">
+                  公元
+                  <select id="year"></select>
+                  年
+                  <select id="month"></select>
+                  月  农历
+                  <span></span>
+                  年 [
+                  <span></span>
+                  年 ]
+                  <input type="button" value="回到今天" title="点击后跳转回今天" style="padding:0px"></div>
+                <ul id="wk">
+                  <li>一</li>
+                  <li>二</li>
+                  <li>三</li>
+                  <li>四</li>
+                  <li>五</li>
+                  <li> <b>六</b>
+                  </li>
+                  <li> <b>日</b>
+                  </li>
+                </ul>
+                <div id="cm"></div>
+                <div id="bm"></div>
+              </div>
+            </td>
+          </tr>
+        </table>
+        <span style="margin-left:15px;">您共${wqdts}天未签到！</span>
+
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+      var kqfList = {};
+      <%=request.getAttribute("kqfList")%>
+    </script>
+  <script src="js/kqgl.js"></script>
+
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/bootstrap.js"></script>
+</body>
+</html>

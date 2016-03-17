@@ -1,0 +1,47 @@
+body,td,.p1,.p2,.i{font-family:arial}
+body{margin:6px 0 0 0;background-color:#fff;color:#000;}
+table{margin-bottom:15px;}
+#cal{width:639px;border:1px solid #c3d9ff;font-size:16px;margin:8px 0 0 15px}
+#cal #top{height:32px;line-height:32px;background:#e7eef8;color:#003784;padding-left:150px}
+#cal #top select{font-size:16px}
+#cal #top input{padding:0}
+#cal ul#wk{margin:0;padding:0;height:25px}
+#cal ul#wk li{float:left;width:90.5px;text-align:center;line-height:25px;list-style:none}
+#cal ul#wk li b{font-weight:normal;color:#c60b02}
+#cal #cm{clear:left;border-top:1px solid #ddd;border-bottom:1px dotted #ddd;position:relative}
+#cal #cm .cell{position:absolute;width:82px;height:56px;text-align:center;margin:5 0 0 9px}
+#cal #cm .cell .so{font:bold 16px arial;}
+#cal #bm{text-align:right;height:24px;line-height:24px;padding:0 13px 0 0}
+#cal #bm a{color:7977ce}
+#cal #fd{display:none;position:absolute;border:1px solid #dddddf;background:#feffcd;padding:10px;line-height:21px;width:150px}
+#cal #fd b{font-weight:normal;color:#c60a00}
+.calendar-hover{border: 1px solid red;}
+a:link{text-decoration:none;}
+a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+a:active{text-decoration:none;}
+#cal #cm .cellwgqwt{position:absolute;width:82px;height:56px;text-align:center;margin:5 0 0 9px}
+#cal #cm .cellwgqwt .so{font:bold 16px arial;}
+#cal #cm .cellwgqyt{position:absolute;width:82px;height:56px;text-align:center;margin:5 0 0 9px}
+#cal #cm .cellwgqyt .so{font:bold 16px arial;}
+#cal #cm .cellgqyt{position:absolute;width:82px;height:56px;text-align:center;margin:5 0 0 9px}
+#cal #cm .cellgqyt .so{font:bold 16px arial;}
+
+#cal #cm .cellwgqwt1{position:absolute;width:82px;height:56px;text-align:center;margin:5 0 0 9px}
+#cal #cm .cellwgqwt1 .so{font:bold 16px arial;}
+#cal #cm .cellwgqyt1{position:absolute;width:82px;height:56px;text-align:center;margin:5 0 0 9px}
+#cal #cm .cellwgqyt1 .so{font:bold 16px arial;}
+#cal #cm .cellgqyt1{position:absolute;width:82px;height:56px;text-align:center;margin:5 0 0 9px}
+#cal #cm .cellgqyt1 .so{font:bold 16px arial;}
+.artical{
+	height: 60px;
+	border-bottom: 1px solid #ccc;
+	padding-left: 20px;
+	line-height: 60px;
+	margin-left:0px;
+}
+.artical h1{
+	font-size: 22px;
+	font-family: 'Microsoft Yahei';
+	margin-top:15px;
+}
