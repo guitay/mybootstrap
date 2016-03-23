@@ -1,7 +1,9 @@
 body{
-	margin:0;
-	width:720px;
+	margin:0 auto;
+	/* width:100%; */
+	/* width:720px; */
 }
+
 header {
 	
 	/* overflow:; */
@@ -12,16 +14,17 @@ footer {
 	right: 0;
 	bottom: 0;
 	height: 96px;
-	width:720px;
+	width:100%;
 	/* background-color: #fafbfe; */
 }
 .headbar {
 	position: absolute;
+	margin:0 auto;
 	top: 0;
 	left: 0;
 	right: 0;
 	height: 98px;
-	width:720px;
+	width:100%;
 	background-color: #6699ff;
 }
 
@@ -31,18 +34,19 @@ footer {
 	right: 0;
 	bottom: 0;
 	height: 96px;
-	width:720px;
+	width:100%;
 	border:0;
 	background-color: #fafbfe;
 }
 
+
 .foot_icon{
 	display:inline-block;
-	width:50px;
+	width:6.944444%;
 	height:76px;
 	padding:0;
 	border:0;
-	margin:10px 0px 0px 95px;
+	margin:10px 0px 0px 13.194444%;
 }
 
 
@@ -51,7 +55,7 @@ footer {
 	display:block;
 	margin: 6px 0px 12px ;
 	text-align:center;
-	width:50px;
+	width:100%;
 	height:20px;
 	line-height:20px;
 	font-family:微软雅黑;
@@ -68,9 +72,9 @@ footer {
 
 .container {
 	height: 1045px;
-	width:720px;
+	width:100%;
 	padding-top:96px;
-	margin:0;
+	margin:0 auto;
 	/* height:500px; */
 	overflow:auto;
 }
@@ -115,4 +119,21 @@ footer {
 	font-size:24px;
 	color:#a9a9a9;
 
+}
+
+
+@media screen and (min-width:720px){
+    body{
+		margin:0 auto;
+		width:720px;
+	}
+	footer{
+		width:720px;
+	}
+	.headbar {
+		width:720px;
+	}
+	.footbar {
+		width:720px;
+	}
 }
