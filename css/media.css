@@ -1,0 +1,22 @@
+
+div{
+	display:none;
+	width:200px;
+	height:200px;
+	background-color:red;
+}
+
+@media screen and (device-width:320px) and (orientation:portrait) {/*第一代iphone1\2\3*/
+	#i1p{
+		display:block;
+	}
+}
+
+
+@media screen and (min-width:828px) and (orientation:portrait) {/*第一代iphone1\2\3*/
+
+	#i1l{
+		display:block;
+	}
+}
+

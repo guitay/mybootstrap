@@ -18,13 +18,11 @@ $(document).ready(function() {
 		language: (navigator.browserLanguage || navigator.language).toLowerCase()
 	};
 	if (browser.versions.ios == true) {
-		// alert(screen.height);
-		// var height = screen.height*2-$('header').height()-$('footer').height();
-		// alert(height);
-		// $(".container").css("height",height+'px');
-		// $(".container").height(height);
-		// alert($("header").height(128));
-		// alert($("footer").height(98));
+
+		//var height = screen.height*2-$('header').height()-$('footer').height();
+		$(".container").css("padding-top",$("header").height());
+		$(".container").css("padding-bottom",$("footer").height());
+
 	}
 	if (browser.versions.android == true) {
 		alert("i am android.")
