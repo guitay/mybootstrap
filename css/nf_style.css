@@ -1,0 +1,37 @@
+.navbar-default{
+  position:absolute;
+  left:0px;
+  top:0px;
+  bottom:0px;
+  width:220px;
+  background-color:#243644;
+
+  color:#dee6f3;
+  font-family:微软雅黑;
+  font-size:16px;
+}
+.nav-header{
+  height:170px;
+  padding:33px 25px;
+}
+
+.nav-header a {
+    color: #DFE4ED;
+}
+.nav-header .text-muted {
+    color: #8095a8;
+}
+
+.nav-header .img-title1 {
+    margin-top:5px;
+    height:18px;
+}
+.nav-header .img-title2 {
+    height:18px;
+}
+.nav-header>.profile-element img.img-circle{
+  /* margin-top:32px;
+  margin-left:24px; */
+  width:64px;
+  height:64px;
+}

@@ -72,3 +72,12 @@ a, a:hover {
 	overflow: hidden;
 	visibility: hidden;
 }
+
+.block{
+	display:block;
+}
+
+.clear {
+    display: block;
+    overflow: hidden;
+}
