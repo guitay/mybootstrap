@@ -1,37 +1,108 @@
-.navbar-default{
-  position:absolute;
-  left:0px;
-  top:0px;
-  bottom:0px;
-  width:220px;
-  background-color:#243644;
+.navbar-default {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 220px;
+  background-color: #243644;
+  color: #93a0b0;
+  font-family: 微软雅黑;
+  font-size: 16px;
+  overflow-y: auto;
 
-  color:#dee6f3;
-  font-family:微软雅黑;
-  font-size:16px;
 }
-.nav-header{
-  height:170px;
-  padding:33px 25px;
+.nav-header {
+  height: 170px;
+  padding: 33px 25px;
 }
-
 .nav-header a {
-    color: #DFE4ED;
+  color: #DFE4ED;
 }
-.nav-header .text-muted {
-    color: #8095a8;
+.nav {
+  background-color:#2f4050;
 }
 
+.nav li>a {
+  color: #98a3b5;
+  height:46px;
+  line-height:16px;
+  font-size:16px;
+  padding-left:25px;
+}
+
+.nav li>ul.collapse li{
+  height:32px;
+  /* padding-left:5px; */
+}
+.nav li a.J_menuItem{
+  color:#9ba8b8;
+  height:32px;
+  font-size:14px;
+  line-height:14px;
+  padding-left:52px;
+}
+.nav li>a:hover {
+  color: #f2f0fe;
+  background-color: #283847;
+}
+.nav li.active {
+  border-left: 4px solid #1ba78c;
+  color: #eff4f8;
+  background-color:#283847;
+}
+
+.nav li.active .nav-label{
+  color: #f2f0fe;
+}
+.nav li.active ul{
+  background-color:#283847;
+}
+
+.nav .arrow{
+  float:right;
+  /* margin-right:18px; */
+}
+
+.nav-header .text-muted {
+  color: #8095a8;
+}
 .nav-header .img-title1 {
-    margin-top:5px;
-    height:18px;
+  margin-top: 5px;
+  height: 18px;
 }
 .nav-header .img-title2 {
-    height:18px;
+  height: 18px;
+  font-size: 16px;
 }
-.nav-header>.profile-element img.img-circle{
+.nav-header>.profile-element img.img-circle {
+
   /* margin-top:32px;
   margin-left:24px; */
-  width:64px;
-  height:64px;
+  width: 64px;
+  height: 64px;
 }
+
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/  
+::-webkit-scrollbar  
+{  
+    width: 2px;  
+    height: 16px;  
+    background-color: #F5F5F5;  
+}  
+  
+/*定义滚动条轨道 内阴影+圆角*/  
+::-webkit-scrollbar-track  
+{  
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);  
+    border-radius: 1px;  
+    background-color: #F5F5F5;  
+}  
+  
+/*定义滑块 内阴影+圆角*/  
+::-webkit-scrollbar-thumb  
+{  
+    border-radius: 1px;  
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
+    background-color: #555;  
+} 
